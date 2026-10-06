@@ -7,7 +7,9 @@ authors = [
     { name = "f-beden-ece", email = "flavien.beden@edu.ece.fr" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "faker>=40.41.0",
+]
 
 [project.scripts]
 beden-flavien-ece-2026-bigdata = "beden_flavien_ece_2026_bigdata:main"
